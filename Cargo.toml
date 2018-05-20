@@ -1,0 +1,13 @@
+[package]
+name = "frictionlessbot"
+version = "0.1.0"
+authors = ["FrictionlessPortals <frictionless@frictionless.cf>"]
+
+[dependencies]
+serde = "1.0.57"
+serde_json = "1.0.17"
+log = "0.4.1"
+chrono = "0.4.2"
+fern = { version = "0.5.5", features = ["colored"] }
+serde_derive = "1.0.57"
+serenity = "0.5.3"
